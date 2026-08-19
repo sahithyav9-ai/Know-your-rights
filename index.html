@@ -1089,6 +1089,23 @@ function findNearby(queryTerm, label){
 document.getElementById('findPoliceBtn').addEventListener('click', ()=> findNearby('police station', 'police stations'));
 document.getElementById('findAdvocateBtn').addEventListener('click', ()=> findNearby('advocate lawyer', 'advocates'));
 </script>
+<script>
+window.chtlConfig = {
+    chatbotId: "4328773467",
+    display: "page_inline"
+};
+</script>
+
+<div id="chtl-inline-bot" style="width: 100%; height: 500px;"></div>
+
+<script
+    async
+    data-id="4328773467"
+    data-display="page_inline"
+    id="chtl-script"
+    type="text/javascript"
+    src="https://chatling.ai/js/embed.js">
+</script>
 
 </body>
 </html>

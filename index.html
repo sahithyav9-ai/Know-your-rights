@@ -1090,18 +1090,22 @@ document.getElementById('findPoliceBtn').addEventListener('click', ()=> findNear
 document.getElementById('findAdvocateBtn').addEventListener('click', ()=> findNearby('advocate lawyer', 'advocates'));
 </script>
 
+<!-- Know Your Rights - Floating Chatbot -->
 <script>
-window.chtlConfig = {
+  window.chtlConfig = {
     chatbotId: "4328773467",
-    display: "page_inline"
-};
+    display: "floating"
+  };
 </script>
 
-<div id="chtl-inline-bot" style="width: 100%; height: 500px;"></div>
-
-<script async data-id="4328773467" data-display="page_inline"
-id="chtl-script" type="text/javascript"
-src="https://chatling.ai/js/embed.js"></script>
+<script
+  async
+  data-id="4328773467"
+  data-display="floating"
+  id="chtl-script"
+  type="text/javascript"
+  src="https://chatling.ai/js/embed.js">
+</script>
 
 </body>
 </html>
